@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.953" height="20.954" viewBox="0 0 20.953 20.954">
+  <g id="linkedin-icon" opacity="0.5">
+    <g id="linkedin" transform="translate(0 0)">
+      <path id="Path_485" data-name="Path 485" d="M51.841,49.627V41.953c0-3.772-.812-6.653-5.212-6.653a4.548,4.548,0,0,0-4.112,2.252h-.052V35.641H38.3V49.627h4.348V42.686c0-1.833.34-3.588,2.593-3.588,2.226,0,2.252,2.069,2.252,3.693V49.6h4.348Z" transform="translate(-30.888 -28.674)" fill="#fff"/>
+      <path id="Path_486" data-name="Path 486" d="M11.3,36.6h4.348V50.586H11.3Z" transform="translate(-10.96 -29.633)" fill="#fff"/>
+      <path id="Path_487" data-name="Path 487" d="M12.514,10a2.528,2.528,0,1,0,2.514,2.514A2.515,2.515,0,0,0,12.514,10Z" transform="translate(-10 -10)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

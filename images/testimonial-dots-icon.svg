@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="24" viewBox="0 0 70 24">
+  <g id="testimonial-dots-icon" transform="translate(0.672 -1.476)">
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="4" cy="4" r="4" transform="translate(-0.672 9.476)" fill="#32325a"/>
+    <g id="Group_16731" data-name="Group 16731">
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="12" cy="12" r="12" transform="translate(22.328 1.476)" fill="#7576d2" opacity="0.2"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="4" cy="4" r="4" transform="translate(30.328 9.476)" fill="#7576d2"/>
+    </g>
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="4" cy="4" r="4" transform="translate(61.328 9.476)" fill="#32325a"/>
+  </g>
+</svg>
