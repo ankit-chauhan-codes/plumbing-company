@@ -9,3 +9,45 @@ html, body{
 .container{
     max-width: 1400px;
 }
+
+.btn{
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.72;
+    padding: 18px 40px;
+    text-decoration: none;
+    border: 0;
+}
+
+.primary-btn{
+    background-color: #1D53D4;
+    color: #FFFFFF;
+}
+
+.primary-btn:hover{
+    background-color: #FFFFFF;
+    color: #1D53D4;
+}
+
+.secondary-btn{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF  ;
+}
+
+.secondary-btn:hover{
+    background-color: #FFFFFF;
+    color: #1D53D4;
+}
+
+.third-btn{
+    background-color: #FFFFFF;
+    color: #1D53D4;
+}
+
+.third-btn:hover{
+    background-color: #F0F2F3;
+    color: #1D53D4;
+}
