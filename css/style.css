@@ -1,0 +1,11 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    font-style: normal;
+}
+
+.container{
+    max-width: 1400px;
+}
