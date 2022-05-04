@@ -16,9 +16,10 @@ html, body{
     font-size: 18px;
     font-weight: 500;
     line-height: 1.72;
-    padding: 18px 40px;
+    padding: 15px 40px;
     text-decoration: none;
-    border: 0;
+    border: none;
+    border-radius: 0;
 }
 
 .primary-btn{
@@ -34,12 +35,13 @@ html, body{
 .secondary-btn{
     background-color: transparent;
     color: #FFFFFF;
-    border: 2px solid #FFFFFF  ;
+    border: 1px solid #FFFFFF;
 }
 
 .secondary-btn:hover{
     background-color: #FFFFFF;
     color: #1D53D4;
+    border: 1px solid #FFFFFF;
 }
 
 .third-btn{
@@ -56,8 +58,9 @@ html, body{
 /* navbar */
 .navbar{
     padding: 5px 0px;
-    background: #1D53D4;
-    border-bottom: 2px solid #9A9D9E;    
+    background: transparent;
+    border-bottom: 1px solid #9A9D9E;
+    margin-bottom: -105px;    
 }
 
 .navbar .nav-item a{
@@ -99,3 +102,34 @@ html, body{
     margin-left: -50px;
 }
 /* navbar */
+
+
+/* home */
+#home{
+    padding-top: 262px;
+    padding-bottom: 275px;
+    background: url(../images/header-bg-img.jpg) no-repeat center;
+    background-position: cover;
+}
+
+#home h1{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.15;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+
+#home p{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.47;
+    color: #EBEDEE;
+    margin-bottom: 70px;
+    max-width: 75%;
+}
+
+#home .home-buttons span img{
+    transform: translateY(-2px);
+}
+/* home */
