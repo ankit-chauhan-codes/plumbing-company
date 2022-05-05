@@ -54,6 +54,20 @@ html, body{
     color: #1D53D4;
 }
 
+.fourth-btn{
+    background-color: transparent;
+    color: #1D53D4;
+    border-bottom: 2px solid #1D53D4;
+    padding: 0px;
+}
+
+.fourth-btn:hover{
+    background-color: transparent;
+    color: #1C2025;
+    border-bottom: 2px solid #1C2025;
+    padding: 0px;
+}
+
 
 /* navbar */
 .navbar{
