@@ -211,3 +211,100 @@ html, body{
 /* stakes */
 
 
+/* services */
+#services{
+    padding: 120px 0px;
+    background-color: #F0F2F3;
+    background-position: cover;
+}
+
+#services .services-body{
+    margin-bottom: 60px;
+}
+
+#services h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 1.6px;
+    color: #1D53D4;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#services .services-card{
+    max-width: 440px;
+    border: 1px solid #DADCDD;
+    border-radius: 0px;
+    margin: auto;
+    background-color: #F0F2F3;
+    background-position: cover;
+}
+
+#services .services-card:hover{
+    max-width: 440px;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
+    margin: auto;
+    background-color: #FFFFFF;
+    background-position: cover;
+    cursor: pointer;
+}
+
+#services .services-card h5{
+  color: #1C2025;
+}
+
+#services .services-card:hover h5{
+    color: #1D53D4;
+}
+
+#services .services-card-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#services .services-card-icon img{
+    float: right;
+    transform: translateY(-40px);
+    margin-right: 20px;
+}
+
+#services h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.20;
+    color: #1C2025;
+    margin-bottom: 20px;
+}
+
+#services h5,
+#services p,
+#services .services-card-button a{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+#services h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.41;
+    color: #1C2025;
+    border-bottom: 1px solid #DADCDD;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+#services p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.625;
+    color: #1C2025;
+    margin-bottom: 25px;
+}
+
+#services .services-card-button a{
+    margin-bottom: 55px;
+}
+/* services */
