@@ -133,3 +133,23 @@ html, body{
     transform: translateY(-2px);
 }
 /* home */
+
+/* value */
+#value{
+    background-color: transparent;
+    transform: translateY(0px);
+}
+
+#value .value-body{
+    padding: 25px 40px 25px 25px;
+    background: #FFFFFF;
+}
+
+#value h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.41;
+    color: #1C2025;
+    margin-left: 30px;
+}
+/* value */
