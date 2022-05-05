@@ -28,8 +28,8 @@ html, body{
 }
 
 .primary-btn:hover{
-    background-color: #FFFFFF;
-    color: #1D53D4;
+    background-color: #1C2025;
+    color: #C0C2C4;
 }
 
 .secondary-btn{
@@ -39,9 +39,9 @@ html, body{
 }
 
 .secondary-btn:hover{
-    background-color: #FFFFFF;
-    color: #1D53D4;
-    border: 1px solid #FFFFFF;
+    background-color: #1C2025;
+    color: #C0C2C4;
+    border: 1px solid #1C2025;
 }
 
 .third-btn{
@@ -50,8 +50,8 @@ html, body{
 }
 
 .third-btn:hover{
-    background-color: #F0F2F3;
-    color: #1C2025;
+    background-color: #1C2025;
+    color: #C0C2C4;
 }
 
 .fourth-btn{
@@ -345,3 +345,70 @@ html, body{
     margin-bottom: 50px;
 }
 /* cta  */
+
+
+/* work */
+#work{
+    padding: 120px 0px;
+}
+
+#work h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 1.6px;
+    color: #1D53D4;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#work h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.20;
+    color: #1C2025;
+    margin-bottom: 20px;
+}
+
+#work .work-text p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.625;
+    color: #1C2025;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+#work .work-card-icon{
+    margin-bottom: 20px;
+}
+
+#work h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.41;
+    color: #1C2025;
+    margin-bottom: 20px;
+    transform: translateY(-75px);
+}
+
+#work .work-card-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.625;
+    color: #1C2025;
+    max-width: 65%;
+    margin: auto;
+    transform: translateY(-60px);
+    margin-bottom: 20px;
+}
+
+#work .work-card p{
+    color: #1C2025;
+}
+
+#work .work-card:hover p{
+    color: #C0C2C4;
+}
+/* work */
