@@ -51,7 +51,7 @@ html, body{
 
 .third-btn:hover{
     background-color: #F0F2F3;
-    color: #1D53D4;
+    color: #1C2025;
 }
 
 .fourth-btn{
@@ -308,3 +308,40 @@ html, body{
     margin-bottom: 55px;
 }
 /* services */
+
+
+/* cta  */
+#cta{
+    padding: 120px 0px;
+    background: url(../images/cta-bg-img.jpg) no-repeat center;
+    background-position: cover;
+}
+
+#cta h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 1.6px;
+    color: #BDCBEE;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#cta h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.20;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+#cta p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.625;
+    color: #FFFFFF;
+    max-width: 55%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+/* cta  */
