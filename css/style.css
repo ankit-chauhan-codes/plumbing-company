@@ -161,6 +161,10 @@ html, body{
     padding: 120px 0px;
 }
 
+#stakes img{
+    width: 100%;
+}
+
 #stakes h6{
     font-size: 16px;
     font-weight: 500;
@@ -191,3 +195,5 @@ html, body{
     margin-bottom: 60px;
 }
 /* stakes */
+
+
