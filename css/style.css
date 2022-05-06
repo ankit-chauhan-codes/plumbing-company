@@ -152,7 +152,7 @@ html, body{
 /* value */
 #value{
     background-color: transparent;
-    transform: translateY();
+    margin-top: -65px;
 }
 
 #value .value-body{
@@ -416,7 +416,7 @@ html, body{
 /* gallery */
 #gallery{
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 140px;
     background-color: #F0F2F3;
     background-position: cover;
 }
@@ -448,6 +448,7 @@ html, body{
     font-weight: 400;
     line-height: 1.93;
     color: #CDCED0;
+    transform: translateY(10px);
 }
 
 #gallery h4{
@@ -457,6 +458,51 @@ html, body{
     color: #FFFFFF;
 }
 
+#gallery .gallery-img-01{
+    padding: 444px 168px 35px 45px;
+    background: url(../images/gallery-img-01.jpg) no-repeat center;
+    background-position: cover;
+    width: 100%;
+}
+
+#gallery .gallery-img-02{
+    padding: 444px 168px 35px 45px;
+    background: url(../images/gallery-img-02.jpg) no-repeat center;
+    background-position: cover;
+    width: 100%;
+}
+
+#gallery .gallery-img-03{
+    padding: 444px 168px 35px 45px;
+    background: url(../images/gallery-img-03.jpg) no-repeat center;
+    background-position: cover;
+    width: 100%;
+}
+
+#gallery .gallery-img-01,
+#gallery .gallery-img-02,
+#gallery .gallery-img-03{
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+#gallery .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 32, 37, 0.8);
+    opacity: 0;
+}
+
+#gallery .gallery-img-01:hover .overlay,
+#gallery .gallery-img-02:hover .overlay,
+#gallery .gallery-img-03:hover .overlay{
+    opacity: 0.8;
+    cursor: pointer;
+}
 
 /* gallery */
 
@@ -469,7 +515,7 @@ html, body{
 }
 
 #testimonial .testimonial-body{
-    padding: 80px 70px;
+    padding: 80px 80px;
     background-color: #FFFFFF;
     background-position: cover;
 }
@@ -537,7 +583,7 @@ html, body{
 
 #about .about-small-image{
     margin-top: -185px;
-    transform: translateX(432px);
+    margin-left: 430px;
 }
 
 #about h6{
