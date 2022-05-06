@@ -152,12 +152,13 @@ html, body{
 /* value */
 #value{
     background-color: transparent;
-    transform: translateY(0px);
+    transform: translateY();
 }
 
 #value .value-body{
     padding: 25px 40px 25px 25px;
     background: #FFFFFF;
+    box-shadow: 10px 10px 10px 2px rgba(192, 194, 196, 0.2);
 }
 
 #value h5{
@@ -233,7 +234,6 @@ html, body{
 }
 
 #services .services-card{
-    max-width: 440px;
     border: 1px solid #DADCDD;
     border-radius: 0px;
     margin: auto;
@@ -242,7 +242,6 @@ html, body{
 }
 
 #services .services-card:hover{
-    max-width: 440px;
     border: 1px solid #FFFFFF;
     border-radius: 0px;
     margin: auto;
@@ -417,9 +416,13 @@ html, body{
 /* gallery */
 #gallery{
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
     background-color: #F0F2F3;
     background-position: cover;
+}
+
+#gallery .gallery-body{
+    margin-bottom: 60px;
 }
 
 #gallery h6{
@@ -440,17 +443,11 @@ html, body{
     margin-bottom: 20px;
 }
 
-#gallery .gallery-body{
-    margin-bottom: 60px;
-}
-
 #gallery h5{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.93;
     color: #CDCED0;
-    margin-left: 45px;
-    transform: translateY(-100px);
 }
 
 #gallery h4{
@@ -458,30 +455,9 @@ html, body{
     font-weight: 600;
     line-height: 1.41;
     color: #FFFFFF;
-    margin-bottom: px;
-    margin-left: 45px;
-    transform: translateY(-110px);
 }
 
-#gallery .gallery-images{
-    position: relative;
-    overflow: hidden;
-}
 
-#gallery .overlay{
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    cursor: pointer;
-    opacity: 0;
-    background: rgba(28, 32, 37, 0.5);
-}
-
-#gallery .gallery-images:hover .overlay{
-    opacity: 0.5;
-}
 /* gallery */
 
 
@@ -493,7 +469,7 @@ html, body{
 }
 
 #testimonial .testimonial-body{
-    padding: 76px;
+    padding: 80px 70px;
     background-color: #FFFFFF;
     background-position: cover;
 }
@@ -532,7 +508,6 @@ html, body{
     line-height: 1.47;
     color: #5F6265;
     margin-bottom: 30px;
-    max-width: 90%;
 }
 
 #testimonial h3{
@@ -588,11 +563,27 @@ html, body{
     font-weight: 400;
     line-height: 1.625;
     color: #1C2025;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    max-width: 95%;
 }
 
 #about .about-points{
     margin-bottom: 50px;
+}
+
+#about .about-points li span img{
+    margin-right: 12px;
+}
+
+#about .about-points li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.625;
+    color: #1C2025;
+    margin-bottom: 10px;
+    transform: translateX(-30px);
+
 }
 /* about */
 
@@ -639,6 +630,10 @@ html, body{
     margin-bottom: 25px;
 }
 
+#footer .footer-top .footer-nav-body{
+    transform: translateX(60px);
+}
+
 #footer .footer-top h4{
     font-size: 24px;
     font-weight: 600;
@@ -671,6 +666,25 @@ html, body{
 #footer .footer-top .backflow-testing-link a,
 #footer .footer-top .call-link a{
     margin-bottom: 0px;
+}
+
+#footer .footer-top .footer-get-in-touch-body .first-address p span img,
+#footer .footer-top .footer-get-in-touch-body .mail-link a span img,
+#footer .footer-top .footer-get-in-touch-body .call-link a span img{
+    margin-right: 15px;
+}
+
+#footer .footer-top .footer-get-in-touch-body .first-address{
+    margin-bottom: -15px;
+}
+
+#footer .footer-top .footer-get-in-touch-body .second-address{
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+#footer .footer-top .footer-get-in-touch-body .mail-link{
+    margin-bottom: 15px;
 }
 
 #footer .footer-bottom{
