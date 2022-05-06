@@ -477,6 +477,7 @@ html, body{
     background: url(../images/gallery-img-03.jpg) no-repeat center;
     background-position: cover;
     width: 100%;
+    max-width: 440px;
 }
 
 #gallery .gallery-img-01,
